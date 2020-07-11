@@ -1,281 +1,158 @@
 <!DOCTYPE HTML>
 <!--
-	Dimension by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+	Spatial by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 -->
 <html>
-	<!-- 	This is the "Head" of the HTML document.
-		It contains information that isn't displayed on the actual page, but is useful
-		for the web browser when loading the page	
-	-->
 	<head>
-		<!-- This is the title of the page. It is the text that appears inside this pages tab in your web browser -->
 		<title>Dino Chih-Chun Hsu</title>
 		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<!-- 	This links to this page's CSS, which is contained in the folder assets/css and the file main.css.
-			 If you want to edit the styling of this page, you should edit the file assets/css/main.css
-			 If you have a new CSS file you'd like to add with custom styling, you should link to it here using:
-			 <link rel="stylesheet" href="assets/css/my-new-css-file.css"/> 
-		-->
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<!-- 	In the case that the user's browser does not support JavaScript (unlikely, but possible), the page
-			will load a separate set of CSS stylings from the file assets/css/noscript.css
-			Any HTML contained inside <noscript></noscript> tags will be loaded in the event that JavaScript is not
-			available. 
-		-->
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
-	<!-- The body is the location where your site's content will go -->
-	<body class="is-preload">
+	<body class="landing">
 
-			<!-- This "div" wraps around all of our content and just changes how things are layed out -->
-			<div id="wrapper">
+		<!-- Header -->
+			<header id="header" class="alt">
+				<h1><a href="index.html">Dino Chih-Chun Hsu</a></h1>
+				<nav id="nav">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<!--<li><a href="generic.html">Generic</a></li>
+						<li><a href="elements.html">Elements</a></li>-->
+						<li><a href="#aboutme">About Me</a></li>
+						<li><a href="#research">Research</a></li>
+						<li><a href="#community">Community</a></li>
+						<li><a href="#contact">Contact</a></li>
+					</ul>
+				</nav>s
+			</header>
 
-					<!-- This is where the content that appears on page load exists -->
-					<header id="header">
-						<!-- This is the main content of the front page -->
-						<div class="content">
-							<div class="inner">
-								<!-- Here is a heading where you can put your name -->
-								<h1>
-									Dino Chih-Chun Hsu
-								</h1>
-								<!-- 	Here is an image where you can put a picture of you. 
-									You can change the width and height attributes below to change how large
-									your image is.
+			<a href="#menu" class="navPanelToggle"><span class="fa fa-bars"></span></a>
 
-									Try adding "border-radius: 50%;" to the style attribute.
-								-->
-								<img src="images/photo1.jpg" style="width:280px; height:280px; object-fit: cover;">
-								<!-- 	Here is a paragraph where you can put your position and institution, or
-									a short line about yourself.
-								-->
-								<p>
-									Physics graduate student <br> UC San Diego
-								</p>
-								<!-- Here is a paragraph where you can put a link to your CV -->
-								
-								<p>
-									<!-- Note you will want to change where this points to! -->
-									<a href="pdf/cv_science.pdf" target="_blank">Curriculum Vitae</a>
-								</p>
+		<!-- Banner -->
+			<section id="banner">
+				<h2>Dino Chih-Chun Hsu</h2>
+				<p>Physics PhD Student <br /> UC San Diego</p>
+				<ul class="actions">
+					<li><a href="pdf/cv_science.pdf" class="button special big">Curriculum Vitae</a></li>
+				</ul>
+			</section>
+
+			<!-- One -->
+				<section id="aboutme" class="wrapper style1">
+					<div class="container 75%">
+						<div class="row 200%">
+							<div class="6u 12u$(medium)">
+								<header class="major">
+									<h2>About Me</h2>
+									<br><img src="images/photo1.jpg" alt="Image" height="300" width="400" />
+									<p>I’m a fourth-year physics graduate student at <a href="https://ucsd.edu/">UC San Diego</a>, studying low mass stars and brown dwarfs. My advisor is <a href="http://pono.ucsd.edu/~adam/wordpress/adam-burgasser-principal-investigator/">Adam Burgasser</a>.
+									<br><br>Here is my complete <a href="pdf/cv_science.pdf">CV</a>. </p>
+								</header>
+							</div>
+							<div class="6u$ 12u$(medium)">
+								<p>I mainly work on radial and rotational velocity measurements of Ultracool Dwarfs (UCDs), using a forward-modeling technique, to model high-resolution spectroscopic data by the Keck NIRSPEC spectrometer (R~25,000). We also develope a modified data reduction pipeline from the <a href="https://github.com/chihchunhsu/NIRSPEC-Data-Reduction-Pipeline">NIRSPEC Data Reduction Pipeline (NSDRP)</a> and a <a href="https://github.com/chihchunhsu/smart">forward-modeling routine code</a>.</p>
+								<p> As an international student from Taiwan, I got my B.S. in Physics at National Tsing Hua University in 2014 and started as a physics graduate student at UC San Diego from 2016. When I am free, I like to listen to music, sing, brew coffee, and play tennis. </p>
+								<p> <b>Education:</b>
+								<br><img src="images/ucsd-logo.png" height="18" width="18" />   Physics PhD student, UC San Diego
+								<br><img src="images/nthu-logo.png" height="22" width="22" />   B.S. Physics, National Tsing Hua University, Taiwan </p>
+								<p> <b>Research Interests:</b>
+								<br>low mass stars and brown dwarfs, high-resolution spectroscopy, stellar kinematics, binaries, stellar rotations </p>
 							</div>
 						</div>
-						<!-- This is the navigation menu -->
-						<nav>
-							<!-- This element makes an "Unordered List" -->
-							<ul>
-								<!-- This is a "List Item" -->
-								<li>
-									<!-- 	Note that this links to #about, which will move the page to wherever
-										the element with the id "about" exists.
-									-->
-									<a href="#about">About Me</a>
-								</li>
-								<li>
-									<a href="#research">Research</a>
-								</li>
-								<li>
-									<a href="#community">Community</a>
-								</li>
-								<li>
-									<a href="#contact">Contact</a>
-								</li>
-								<!-- 	You can add another button to your navigation menu by adding
-									another List Item with a link inside of it.
-								-->
-								<!-- <li>
-									<a href="images/Astronomy.jpg">My CV</a>
-								</li> -->
-							</ul>
-						</nav>
-					</header>
-
-					<!-- These are the "cards" that appear when you click the buttons on the main page -->
-					<div id="main">
-						<!-- 	Here is the "About Me" card. Note it has the id "about", which the previous 
-							button links to.
-						-->
-						<article id="about">
-							<h2 class="major">About Me</h2>
-							<!-- Here is an image that you can customize for this page -->
-							<span class="image main">
-								<img src="images/photo1.jpg" alt=""/>
-							</span>
-							<p>
-								I’m a fourth-year physics graduate student at UC San Diego, studying low mass stars and brown dwarfs. My advisor is 
-								
-								<a href="http://pono.ucsd.edu/~adam/wordpress/adam-burgasser-principal-investigator/" style="color:#FFC300">Adam Burgasser</a>
-								
-								.<br>
-								<br>
-								I mainly work on radial and rotational velocity measurements of Ultracool Dwarfs (UCDs), using a forward-modeling technique, to model high-resolution spectroscopic data by the Keck NIRSPEC spectrometer (R~25,000). We also develope a modified data reduction pipeline from the 
-								<a href="https://github.com/chihchunhsu/NIRSPEC-Data-Reduction-Pipeline" style="color:#FFC300"> NIRSPEC Data Reduction Pipeline (NSDRP) </a>
-								and a 
-								<a href="https://github.com/chihchunhsu/nirspec_fmp" style="color:#FFC300"> forward-modeling routine code </a>
-								.<br>
-								<br>
-								As an international student from Taiwan, I got my B.S. in Physics at National Tsing Hua University in 2014 and started as a physics graduate student at UC San Diego from 2016. When I am free, I like to listen to music, sing, brew coffee, and play tennis.<br>
-
-							
-							<!-- Here are three paragraphs where you can fill out information about yourself -->
-							<p>
-								<!-- Items contained in <b> tags are bolded! -->
-								<b>Education:</b><br/>
-								Physics graduate student, UC San Diego <br>
-								B.S. Physics, National Tsing Hua University, Taiwan <br>
-							</p>
-							<p>
-								<b>Research Interests: </b><br>
-								low mass stars and brown dwarfs
-							</p>
-							<p>
-								<!--
-									<b>Publications:</b> <a href="https://ui.adsabs.harvard.edu/">Include ADS link!</a>
-								-->
-							</p>
-						</article>
-
-						<!-- Here is the "Research" card. -->
-						<article id="research">
-							<h2 class="major">Research</h2>
-							<span class="image main">
-								<img src="images/example_fit_J0720.png" alt=""/>
-								<br> This is an example fit of the late M dwarf J0720-0846. Legends: the data (black), the model before (red) and after (blue) applying the telluric absorption.	
-							</span>
-							<br>	
-							<p>
-								<!-- 	A <br> tag puts in a break so that the text that follows it displays on
-									the next line.
-								-->
-								<b>Radial and Rotational Velocities of Ultracool Dwarfs Using Keck/NIRSPEC High-Resolution Spectrometer</b><br>
-								Precise measurements of radial (RV) and rotational (vsini) velocities of stars are essential for studying stellar kinematics (space velocities and dispersions), 
-								binary orbits, and rotational dynamics (angular momentum evolution). However, the high-resolution spectroscopic observations necessary to make these measurements is challenging for the intrinsically faint ultracool dwarfs, 
-								stellar or sub-stellar objects with effective temperatures less than 3,000 K. Velocity samples of these objects are correspondingly small. 
-								To address these limitations, we are conducting a velocity survey of over 300 late-M, L, and T dwarfs, drawing from nearly twenty years of observed and archival high-resolution data from the Keck NIRSPEC near-infrared spectrometer reduced by the NIRSPEC Data Reduction Pipeline. 
-								We determine RV, vsini, and atmospheric parameters using a Markov Chain Monte Carlo forward modeling method. 
-								We aim at comparing our RV and vsini measurements to prior measurements, examining the distributions in atmospheric parameters (Teff, logg), and searching for radial velocity variables.
-							</p>
-							
-						</article>
-						
-						<article id="posters">
-							<h2 class="major">Posters</h2>
-							<span class="image main">
-								<img src="files/2019kecksciencemeeting_CHsu.pdf" alt=""/>
-								<br> 2019 Keck Science Meeting: Precise Radial and Rotational Velocities for T Dwarfs Using NIRSPEC High-Resolution Spectrometer.	
-							</span>
-							<br>	
-							
-						</article>
-
-						<!-- Here is the "Community" card. -->
-						<article id="community">
-							<h2 class="major">Community</h2>
-							<span class="image main">
-								<img src="images/outreach.jpg" alt=""/>
-								<br> Photo Credit: Adam Burgasser
-							</span>
-							<br>
-							<p>
-								<b>Teaching:</b><br>
-								TA for undergraudate stellar astrophysics (PHYS 160) <br>
-								TA for undergraudate stellar classical mechanics (PHYS 1A) <br>
-								TA for undergraduate physics lab for classical mechanics (PHYS 2BL) <br>
-								TA for undergraduate physics lab for modern physics (PHYS 2DL) <br>
-							</p>
-							<p>
-								<b>Outreach:</b><br>
-								IOA Science Innovation Camp Physics Outreach <br>
-							</p>
-						</article>
-
-						<!-- Here is a the "Contact" card. -->
-						<article id="contact">
-							<h2 class="major">Contact</h2>
-							<p> 
-								<b>Email: chh194[at]ucsd.edu</b> 
-							</p>
-							<p> 
-								<b>Address: SERF 330, University of California San Diego<br /></b> 
-								9500 Gilman Drive, La Jolla, CA 92093<br />
-							</p>
-
-							<!-- 	Here are the fancy icons that link to your social media.
-								These icons are rendered using Font Awesome fonts, and you can find more icons
-								here: https://fontawesome.com/icons
-							-->
-							<ul class="icons">
-								<!-- The Twitter icon -->
-								<li>
-									<!-- 	Note that you need to change the link to point to your page.
-										Replace "#" with your Twitter profile page.
-									-->
-									<a href="https://twitter.com/ChihChunHsu" class="icon fa-twitter">
-										<span class="label">Twitter</span>
-									</a>
-								</li>
-								<!-- The Facebook icon -->
-								<!--
-								<li>
-									<a href="#" class="icon fa-facebook">
-										<span class="label">Facebook</span>
-									</a>
-								</li>
-								-->
-								
-								<!-- The Instagram icon -->
-								<!--
-								<li>
-									<a href="#" class="icon fa-instagram">
-										<span class="label">Instagram</span>
-									</a>
-								</li>
-								-->
-								<!-- The GitHub icon -->
-								<li>
-									<a href="https://github.com/chihchunhsu" class="icon fa-github">
-										<span class="label">GitHub</span>
-									</a>
-								</li>
-								<!-- 	We can add a new icon by searching on the Font Awesome website
-									for the correct class name and inserting it as a new list item.
-
-									We found "envelope" here: https://fontawesome.com/icons/envelope
-								-->
-								<!-- <li>
-									<a href="chh194@ucsd.edu" class="icon fa-envelope">
-										<span class="label">Email</span>
-									</a>
-								</li> -->
-							</ul>
-						</article>
 					</div>
+				</section>
 
-					<!-- This is the footer that appears at the bottom of the page -->
-					<footer id="footer">
-						<!-- 	You can change "Untitled" to your name to show everyone that
-							this is your work.
-						-->
-						<p class="copyright">&copy; C.Hsu 2019-2020. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
-					</footer>
+			<!-- RESEARCH SECTION -->
+				<section id="research" class="wrapper style1">
+					<div class="container 75%">
+						<div class="row 200%">
+							<div class="6u 12u$(medium)">
+								<header class="major">
+									<h2>Research</h2>
+									<br><img src="images/example_fit_J0720.png" alt="Image" height="250" width="450" />
+									<p>This is an example fit of the late M dwarf J0720-0846. Legends: the data (black), the model before (red) and after (blue) applying the telluric absorption.</p>
+								</header>
+							</div>
+							<div class="6u$ 12u$(medium)">
+								<p><b>Radial and Rotational Velocities of Ultracool Dwarfs Using Keck/NIRSPEC High-Resolution Spectrometer</b>
+								<br>Precise measurements of radial (RV) and rotational (vsini) velocities of stars are essential for studying stellar kinematics (space velocities and dispersions), binary orbits, and rotational dynamics (angular momentum evolution). However, the high-resolution spectroscopic observations necessary to make these measurements is challenging for the intrinsically faint ultracool dwarfs, stellar or sub-stellar objects with effective temperatures less than 3,000 K. Velocity samples of these objects are correspondingly small. To address these limitations, we are conducting a velocity survey of over 300 late-M, L, and T dwarfs, drawing from nearly twenty years of observed and archival high-resolution data from the Keck NIRSPEC near-infrared spectrometer reduced by the NIRSPEC Data Reduction Pipeline. We determine RV, vsini, and atmospheric parameters using a Markov Chain Monte Carlo forward modeling method. We aim at comparing our RV and vsini measurements to prior measurements, examining the distributions in atmospheric parameters (Teff, logg), and searching for radial velocity variables. </p>
+							</div>
+						</div>
+					</div>
+				</section>
 
-			</div>
+			<!-- COMMUNITY SECTION -->
+				<section id="community" class="wrapper style1">
+					<div class="container 75%">
+						<div class="row 200%">
+							<div class="6u 12u$(medium)">
+								<header class="major">
+									<h2>Community</h2>
+									<br><img src="images/outreach.jpg" alt="Image" height="300" width="400" />
+									<p>Photo Credit: Adam Burgasser.</p>
+								</header>
+							</div>
+							<div class="6u$ 12u$(medium)">
+								<p> Besides research, I am also interested in teaching and outreach activities.
+								<br>
+								<br><b>Teaching:</b>
+								<br>TA for undergraudate stellar astrophysics (PHYS 160)
+								<br>TA for undergraudate stellar classical mechanics (PHYS 1A)
+								<br>TA for undergraduate physics lab for classical mechanics (PHYS 2BL)
+								<br>TA for undergraduate physics lab for modern physics (PHYS 2DL)
+								<br>
+								<br><b>Outreach:</b>
+								<br>IOA Science Innovation Camp Physics Outreach </p>
+							</div>
+						</div>
+					</div>
+				</section>
 
-			<!--	This is the background image of the site.
-				All configuration of the background is done with CSS.
-				Look in the file assets/css/main.css and search for "#bg" to
-				see how this element is styled. Look for comments pointing 
-				to where you can set a new background image.
-			-->
-			<div id="bg"></div>
+			<!-- CONTACT SECTION -->
+				<section id="contact" class="wrapper style1">
+					<div class="container 75%">
+						<div class="row 200%">
+							<div class="6u 12u$(medium)">
+								<header class="major">
+									<h2>Contact</h2>
+								</header>
+							</div>
+							<div class="6u$ 12u$(medium)">
+								<ul class="icons">
+									<br><li><a class="icon fa-envelope"></a></li><a href="mailto:chh194@ucsd.edu">chh194 [at] ucsd [dot] edu</a>
+									<br><li><a class="icon fa-twitter"></a></li> <a href="https://twitter.com/ChihChunHsu">ChihChunHsu</a>
+									<br><li><a class="icon fa-github"></a></li><a href="https://github.com/chihchunhsu">chihchunhsu</a>
+									<!--<br><li><a class="icon fa-map-marker"></a></li>    SERF 330, University of California San Diego, 
+										<br>9500 Gilman Drive, La Jolla, CA 92093-->
+								</ul>
+							</div>
+						</div>
+					</div>
+				</section>
+			
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="container">
+					<!-- <ul class="icons">-->
+						<!-- <li><a href="#" class="icon fa-facebook"></a></li> -->
+						<!-- <li><a href="#" class="icon fa-twitter"></a></li>-->
+						<!-- <li><a href="#" class="icon fa-github"></a></li>-->
+						<!-- <li><a href="#" class="icon fa-instagram"></a></li> -->
+					<!-- </ul>-->
+					<ul class="copyright">
+						<li>&copy; C. Hsu 2019-2020</li>
+						<li>Design: <a href="http://templated.co">TEMPLATED</a></li>
+						<li>Images: <a href="http://unsplash.com">Unsplash</a></li>
+					</ul>
+				</div>
+			</footer>
 
-			<!-- Scripts -->
+		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 
